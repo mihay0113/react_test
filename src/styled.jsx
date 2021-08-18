@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 0 auto;
+  margin: 100px auto;
   max-width: 1240px;
   text-align: center;
-  margin: 100px;
 `;
 
 export const Form = styled.form`
@@ -14,7 +13,7 @@ export const Form = styled.form`
 
 export const Input = styled.input`
   width: 200px;
-  hight: 100px;
+  height: 36px;
   background-color: white;
   border: 1px solid green;
   -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
@@ -24,7 +23,7 @@ export const Input = styled.input`
 
 export const Select = styled.select`
   width: 200px;
-  hight: 150px;
+  height: 36px;
   -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
@@ -32,7 +31,7 @@ export const Select = styled.select`
 
 export const Button = styled.button`
   width: 200px;
-  hight: 100px;
+  height: 36px;
   background-color: #000080;
   color: #E6E6FA;
   font-weight: bold;
@@ -46,6 +45,6 @@ export const Button = styled.button`
 `;
 
 export const P = styled.p`
+  line-height: 100%;
   color: #FF0000;
-  margin: 0;
 `;

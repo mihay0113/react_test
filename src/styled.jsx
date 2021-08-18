@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -36,11 +36,8 @@ export const Button = styled.button`
   background-color: #000080;
   color: #E6E6FA;
   font-weight: bold;
-  border: 0px;
-  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-  transition: background-color 0.3s, transform 0.5s;
+  transition: background-color 0.3s;
 
   &:hover {
     background-color: #7B68EE;

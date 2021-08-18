@@ -17,7 +17,7 @@ export const Todo = ({ todo }) => (
     <Td>{todo.completed ? 'Completed!' : 'Not completed!'}</Td>
     <Td>{todo.user}</Td>
   </>
-)
+);
 
 Todo.propTypes = {
   todo: TodoTypes.isRequired,
